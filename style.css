@@ -1,0 +1,70 @@
+html {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1440px;
+  min-width: 720px;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.maininfo {
+  background-color: yellow;
+  display: flex;
+  min-height: 319px;
+  justify-content: start;
+}
+
+.photo {
+  width: 300px;
+  height: 319px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.contacts {
+  background-color: white;
+  align-self: center;
+  margin-left: 100px;
+}
+
+.name {
+  font-size: 4rem;
+}
+
+.contactsInfo {
+  font-size: 2rem;
+  list-style: none;
+  padding-left: 55px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: start;
+  
+}
+
+.navigation li {
+  background-color: pink;
+  padding-top: 10px;
+  padding: 10px;
+  list-style: none;
+  width: 70px;
+  border: solid;
+  border-color: black;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.navigation li:nth-child(n+2) {
+  border-left: none;
+}
+
+.navigation li:hover {
+  background-color: rgb(241, 226, 229);
+  color: white;
+}
