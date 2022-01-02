@@ -8,19 +8,19 @@
     <link href="style.css" rel="stylesheet">
     <title>CV</title>
   </head>
-  <body>
-    <header class="container">
+  <body class="container">
+    <header class="container banner">
       
       <div class="maininfo">
         <img src="photo.jpg" alt="photo" class="photo">
         <aside class="contacts">
           <h1 class="name">Grigoriy Kichigin</h1>
           <ul class="contactsInfo">
-            <li>Saratov, Russia</li>
-            <li>E-mail: gri12388@yandex.ru</li>
-            <li>GitHub: Gri12388</li>
-            <li>Discord: Gri12388#7235</li>
-            <li>Telegram: @gri12388</li>
+            <li class="city">Saratov, Russia</li>
+            <li class="mail">E-mail: gri12388@yandex.ru</li>
+            <li class="git">GitHub: Gri12388</li>
+            <li class="disc">Discord: Gri12388#7235</li>
+            <li class="tele">Telegram: @gri12388</li>
           </ul>
         </aside>
       </div>
@@ -38,44 +38,45 @@
       </nav>
     </header>
     
-    <main class="container">
-      <section id="summary">
+
+    <main class="base">
+      <section id="summary" class="baseSections">
         <h2 class="sectionHeader">summary</h2>
         <p class="sectionContent">
           33 years old. Independent entrepreneur. The field of activity is repair and maintenance of household, office and other related office equipment. I am fond of layout and programming issues, that is why I have been dealing with this since 2017 as amateur and and semi-professional. I have experience in layout of simple websites and writing programs in programming languages of the C family: C, C++, C#, Java. Currently, I am receiving additional professional education in the field of software development in order to gain knowledge and skills in this area for further change of the main professional activity.
         </p>
       </section>
-      <section id="skills">
+      <section id="skills" class="baseSections">
         <h2 class="sectionHeader" class="sectionHeader">skills</h2>
         <p class="sectionContent">
           Development of programs in C, C++, C#, Java programming languages: writing console games, developing file manager programs, creating libraries for these programming languages. Layout of simple websites. Working with databases represented by MS SQL Server.
         </p>
       </section>
-      <section id="code">
+      <section id="code" class="baseSections">
         <h2 class="sectionHeader">code</h2>
         <p class="sectionContent">
           [Link to my GitHub account](https://github.com/Gri12388)
         </p>
       </section>
-      <section id="courses">
+      <section id="courses" class="baseSections">
         <h2 class="sectionHeader">courses</h2>
         <p class="sectionContent">
           The main education is higher humanitarian. Since 2020 and up to the present, I have been receiving additional professional education in the field of "Software Development" in the Academy "IT Step". To form and improve Frong-End software development skills, since 2021 I have been attending The Rolling Scopes School courses in the field of "JS / FRONT-END" software development.
         </p>
       </section>
-      <section id="projects">
+      <section id="projects" class="baseSections">
         <h2 class="sectionHeader">projects</h2>
         <p class="sectionContent">
           I have experience in software development as part of the educational process and amateur semi-professional activities.  
         </p>
       </section>
-      <section id="education">
+      <section id="education" class="baseSections">
         <h2 class="sectionHeader">education</h2>
         <p class="sectionContent"> 
           Since 2020 and up to the present, I have been receiving additional professional education in the field of "Software Development" in the Academy "IT Step". To form and improve Frong-End software development skills, since 2021 I have been attending The Rolling Scopes School courses in the field of "JS / FRONT-END" software development.
         </p>
       </section>
-      <section id="english">
+      <section id="english" class="baseSections">
         <h2 class="sectionHeader">english</h2>
         <p class="sectionContent"> 
           B1
@@ -83,10 +84,11 @@
       </section>
     </main>
 
+
     <footer class="container footer">
       <div class="githubRsschool">
-        <a class="github"> My GitHub </a>
-        <a class="rsschool">RS School's «JavaScript/Front-end» course</a>
+        <a class="linkButton github" href="https://github.com/Gri12388" target="_blank">link to my GitHub</a>
+        <a class="linkButton rsschool" href="https://rs.school/js/" target="_blank">link to RS School's «JavaScript/Front-end» course</a>
       </div>
       <div class="year">2022</div>
     </footer>

@@ -3,13 +3,21 @@ html {
 }
 
 .container {
+
   max-width: 1440px;
-  min-width: 720px;
   width: 90%;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  
+}
+
+.banner {
+  position: fixed;
+}
+
+.base {
+  padding-bottom: 1200px;
+  margin-bottom: auto;
 }
 
 .maininfo {
@@ -28,7 +36,7 @@ html {
 }
 
 .contacts {
-  background-color: white;
+  background-color: pink;
   align-self: center;
   margin-left: 100px;
 }
@@ -43,10 +51,34 @@ html {
   padding-left: 55px;
 }
 
+.contactsInfo :nth-child(n) {
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+.city {
+  background-image: url(img/city.png);
+}
+
+.mail {
+  background-image: url(img/mail.png);
+}
+
+.git {
+  background-image: url(img/github.png);
+}
+
+.disc {
+  background-image: url(img/discord.png);
+}
+
+.tele {
+  background-image: url(img/telegram.png);
+}
+
 .navigation {
   display: flex;
-  justify-content: start;
-  
+  justify-content: start; 
 }
 
 .navigation li {
@@ -54,20 +86,31 @@ html {
 }
 
 .navigation li a {
+  display: block;
   background-color: pink;
-  padding-top: 10px;
   padding: 10px;
-  width: 70px;
+  width: 140px;
   border: solid;
   border-color: black;
+  border-width: 1px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 2rem;
   text-transform: capitalize;
-  ;
 }
 
-.navigation li:nth-child(n+2) {
+.navigation li:nth-child(n+2) a {
   border-left: none;
+  
+}
+
+.navigation li:nth-child(1) a {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.navigation li:last-child a {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .navigation li:hover {
@@ -83,8 +126,16 @@ html {
 .sectionHeader {
   font-size: 2rem;
   text-transform: capitalize;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 10px;
+}
+
+.baseSections {
+  padding-top: 370px;
+}
+
+.baseSections:nth-child(n+2) {
+  margin-top: -370px;
 }
 
 .sectionContent {
@@ -93,8 +144,11 @@ html {
 }
 
 .footer {
+  position: fixed;
+  top: 75%;
   background-color: yellow;
   padding-top: 50px;
+  padding-bottom: 100%;
 }
 
 .githubRsschool {
@@ -102,26 +156,44 @@ html {
   justify-content: space-around;
 }
 
-.github {
+.linkButton {
   align-self: center;
-  width: 160px;
+  width: 600px;
   padding-top: 120px;
+  padding-bottom: 10px;
   background-color: white;
   text-align: center;
-  background-image: url(github_logo.png);
-  background-position: top center;
+  background-position-x: center;
+  background-position-y: 20%;
   background-repeat: no-repeat;
+  font-size: 1.5rem;
+  background-color: pink;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 10px rgba(0,0,0,.1);
+}
+
+.github {
+  background-image: linear-gradient(45deg, rgba(255, 192, 203, .5), rgba(255, 255, 255, .5)), url(github_logo.png) ; 
+}
+
+.github:hover {
+  background-image: linear-gradient(45deg, rgba(255, 192, 203, .5), rgba(218, 30, 30, 0.5)), url(github_logo.png) ; 
+  box-shadow: none;
 }
 
 .rsschool {
-  padding-top: 80px;
-  width: 160px;
-  background-color: white;
-  background-image: url(rsschool_logo.jpg);
-  background-repeat: no-repeat;
-  text-align: center;
+  background-image: linear-gradient(45deg, rgba(255, 192, 203, .5), rgba(255, 255, 255, .5)), url(rsschool_logo.gif);
 }
+
+.rsschool:hover {
+  background-image: linear-gradient(45deg, rgba(255, 192, 203, .5), rgba(218, 30, 30, 0.5)), url(rsschool_logo.gif) ; 
+  box-shadow: none;
+}
+
+
 
 .year {
   text-align: center;
+  font-size: 2rem;
 }
