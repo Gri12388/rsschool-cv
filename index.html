@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" class="background">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+<body class="base">
+    <header>
+      <h1 class="banner1">Curriculum Vitae</h1>
+      <p class="banner2 pricedown">Grigoriy Kichigin's</p>
+    </header>
+    <nav>
+      <ul class="bar">
+        <li class="barButton summary"><a href="#me" class="barLink">summary</a></li>
+        <li class="barButton skills"><a href="#skills" class="barLink">skills</a></li>
+        <li class="barButton code"><a href="#code" class="barLink">code</a></li>
+        <li class="barButton contactsInfo"><a href="#contactsInfo" class="barLink">contacts</a></li>
+        <li class="barButton projects"><a href="#projects" class="barLink">projects</a></li>
+        <li class="barButton education"><a href="#edu" class="barLink">education</a></li>
+        <li class="barButton english"><a href="#english" class="barLink">english</a></li>
+      </ul>
+    </nav>
+    
+    <img src="side.gif" alt="me" class="person">
+    <p class="line"></p>
+
+    <main class="mainPosition">
+      <div class="container" id="me">
+        <img src="photo.jpg" alt="me" class="photo" >
+        <p class="me">kichigin grigoriy</p>
+        <p class="me_rus">кичигин григорий</p>
+        <p class="profession">software developer</p>
+        <p class="summarySection">Hi! I'm Greg and this is my little summary. Now I work as independent entrepreneur in field of repair and maintenance of household, office and another equipment like that. But I'm fond of programming and layout stuff, that is why I have been dealing with this since 2017 as amateur and and semi-professional. I have experience in layout of simple websites and writing programs in programming languages of the C family: C, C++, C#, Java. Currently, I am receiving additional professional education in the field of software development in order to gain knowledge and skills in this area for further change of the main professional activity.
+        </p>
+      </div>
+      
+      <div class="container blue" id="contactsInfo">
+        <h2 class="contactsHeader listHeader">my contacts</h2>
+        <ul class="contactsList list" > 
+          <li class="contElem city"><span class="bold">City:</span> Saratov, Russia</li>
+          <li class="contElem mail"><span class="bold">E-mail:</span> gri12388@yandex.ru</li>
+          <li class="contElem git"> <span class="bold">GitHub:</span> Gri12388</li>
+          <li class="contElem disc"><span class="bold">Discord:</span> Gri12388#7235</li>
+          <li class="contElem tele"><span class="bold">Telegram:</span> @gri12388</li>
+        </ul>
+      </div>
+      
+      <div class="container white" id="skills">
+        <h2 class="skillsHeader listHeader">my skills</h2>
+        <ul class="skillsList list"> 
+          <li class="skillsElem"><span class="bold">Front-end:</span> HTML, CSS, JS</li>
+          <li class="skillsElem"><span class="bold">Back-end:</span> C, C++, C#, Java</li>
+          <li class="skillsElem"><span class="bold">SQL:</span> MS SQL Server</li>
+          <li class="skillsElem"><span class="bold">VCS:</span> Git, GitHub</li>
+        </ul>
+      </div>
+
+      <div class="container blue" id="edu">
+        <h2 class="eduHeader listHeader">my education</h2>
+        <ul class="eduList list"> 
+          <li class="eduElem"><span class="bold">"Saratov State Law Academy":</span> university degree </li>
+          <li class="eduElem"><span class="bold">"STEP IT Academy":</span> software development</li>
+          <li class="eduElem"><span class="bold">"RS School":</span> JavaScript/FrontEnd</li>
+        </ul>
+      </div>
+
+      <div class="container white" id="code">
+        <h2 class="listHeader">my code</h2>
+        <pre>
+          <code class="codeSection">
+
+
+function bubbleSort(arr) {
+  for (let j = arr.length - 1; j > 0; j--) {
+    for (let i = 0; i &lt; j; i++) {
+      if (arr[i] > arr[i + 1]) {
+        let temp = arr[i];
+        arr[i] = arr[i + 1];
+        arr[i + 1] = temp;
+      }
+    }
+  }
+}
+          </code>
+        </pre>
+      </div>
+
+      <div class="container blue" id="projects">
+        <h2 class="listHeader">my projects</h2>
+        <a href="https://Gri12388.github.io/rsschool-cv/" class="projectsSection" target="_blank">link to my projects</a>
+      </div>
+
+      <div class="container white" id="english">
+        <h2 class="eduHeader listHeader">my english level</h2>
+        <p class="englishSection">B1: pre-intermediate</p>
+      </div>
+
+    </main>
+
+    
+
+    <footer class="footerLine">
+      <a class="footerLink github" href="https://github.com/Gri12388" target="_blank">link to my GitHub</a>
+      <a class="footerLink rsschool" href="https://rs.school/js/" target="_blank">link to RS School's «JavaScript/Front-end» course</a>
+      <p class="year pricedown">2022</p>    
+    </footer>
+  
+  
+  
+</body>
+</html>

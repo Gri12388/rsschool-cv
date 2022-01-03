@@ -1,0 +1,364 @@
+@font-face {
+  font-family: 'Rage Italic';
+  src: url(./rage.TTF);
+}
+
+@font-face {
+  font-family: 'Pricedown';
+  src: url(pricedown.ttf);
+}
+
+.background {
+  background-color: #211b49;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 16px;
+}
+
+.base {
+  max-width: 1440px;
+  min-width: 720px;
+  width: 90%;
+  max-height: 1440px;
+  height: 1000px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.banner1{
+  position: absolute;
+  z-index: 0;
+  top: 100px;
+  left: 250px;
+  font-family: 'Rage Italic';
+  font-size: 120px;
+  color: rgb(251,133,230);
+  text-align: 40%;
+  text-decoration: underline;
+  transform: rotate(-15deg);
+  text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+}
+
+.banner2{
+  position: absolute;
+  z-index: 0;
+  top: 100px;
+  left: 0px;
+  color: rgb(255,255,255);
+  text-align: 40%;
+}
+
+.pricedown {
+  font-family: 'Pricedown';
+  font-size: 70px;
+  color: rgb(255,255,255);
+  text-shadow: 5px 5px 1px rgba(0,0,0,1);
+}
+
+.mainPosition {
+  width: 65%;
+  height: 600px;
+  position: inherit;
+  z-index: 2;
+  top: 340px;
+  left: 230px;
+  background-color: white;
+  border-radius: 10px;
+  border: solid 5px black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  overflow: auto;
+  list-style: none;
+}
+
+.person {
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+  left: 69%;
+}
+
+.line {
+  height: 20px;
+  width: 65%;
+  position: absolute;
+  z-index: 0;
+  top: 32%;
+  left: 230px;
+  background-color: rgb(251,133,230);
+  background-image: radial-gradient(circle at 0% 0%, rgba(255,255,255,.5), rgb(251,133,230));
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+.container {
+  width: 100%;
+  min-height: 600px;
+  height: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.blue {
+  background-color: rgb(101,213,251);
+}
+
+.white {
+  background-color: white;
+}
+
+.photo {
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 5%;
+}
+
+.me {
+  margin-left: 400px;
+  margin-top: -250px;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+.me_rus {
+  margin-left: 400px;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  
+}
+
+.profession {
+  margin-left: 400px;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  margin-bottom: 70px;
+}
+
+.summarySection {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  text-align: justify;
+  text-indent: 70px;
+}
+
+.list {
+  list-style: none;
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+.listHeader {
+  background-color: rgb(251,133,230);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.contElem {
+  padding-top: 22px;;
+  padding-left: 80px;
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  background-position-y: center;
+}
+
+.city {
+  background-image: url(img/city.png);
+}
+
+.mail {
+  background-image: url(img/mail.png);
+}
+
+.git {
+  background-image: url(img/github.png);
+}
+
+.disc {
+  background-image: url(img/discord.png);
+}
+
+.tele {
+  background-image: url(img/telegram.png);
+}
+
+.skillsElem {
+  padding-top: 22px;;
+
+}
+
+.eduElem {
+  padding-top: 22px;
+  font-size: 2.5rem;
+}
+
+.englishSection {
+  padding-top: 22px;
+  padding-left: 20px;
+  font-size: 2.5rem;
+}
+
+.codeSection {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  padding-left: -300px;
+}
+
+.projectsSection {
+  width: 600px;
+  margin-top: 100px;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: rgb(251,133,230);
+  background-image: radial-gradient(circle at 0% 0%, rgba(255,255,255,.5), rgb(251,133,230));
+  border: solid 2px black;
+  border-radius: 10px;
+  box-shadow: inset -4px -6px 4px rgba(0,0,0,.5);
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  }
+
+.projectsSection:hover {
+  background-color: rgb(101,213,251);
+  background-image: radial-gradient(circle at 0% 0%, rgba(255,255,255,.5), rgb(101,213,251));
+}
+
+.bar {
+  position: inherit;
+  list-style: none;
+}
+
+.barButton {
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.barLink {
+  width: 150px;
+  padding: 10px;
+  background-image: radial-gradient(circle at 0% 0%, rgba(255,255,255,.5), rgb(251,133,230));
+  border: solid 2px black;
+  border-radius: 10px;
+  box-shadow: inset -4px -6px 4px rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  z-index: 2;
+}
+
+.barLink:hover {
+  background-color: rgb(101,213,251);
+  background-image: radial-gradient(circle at 0% 0%, rgba(255,255,255,.5), rgb(101,213,251));
+
+}
+
+.summary {
+  position: absolute;
+  top: 325px;
+  left: 50px;
+  background-color: white;
+  color: rgb(89, 0, 255);
+}
+
+.skills {
+  position: absolute;
+  top: 475px;
+  left: 50px;
+  background-color: white;
+  color: rgb(89, 0, 255);
+}
+
+.code {
+  position: absolute;
+  top: 625px;
+  left: 50px;
+  background-color: white;
+  color: rgb(89, 0, 255);
+}
+
+.contactsInfo {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  background-color: white;
+  color: rgb(89, 0, 255);
+}
+
+.projects {
+  position: absolute;
+  top: 700px;
+  left: 50px;
+  background-color: white;
+  color: rgb(89, 0, 255);
+}
+
+.education {
+  position: absolute;
+  top: 550px;
+  left: 50px;
+  background-color: white;
+  color: rgb(89, 0, 255);
+}
+
+.english {
+  position: absolute;
+  top: 775px;
+  left: 50px;
+  background-color: white;
+  color: rgb(89, 0, 255);
+}
+
+.footerLine {
+  position: relative;
+}
+
+.footerLink {
+  width: 250px;
+  height: 95px;
+  z-index: 4;
+  top: -10px;
+  background-color: rgb(251,133,230);
+  background-repeat: no-repeat;
+  background-position-x:  center;
+  border: solid 2px black;
+  border-radius: 10px;
+  box-shadow: inset -4px -6px 4px rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.footerLink:hover {
+  background-color: rgb(101,213,251);
+}
+
+.github {
+  position: absolute;
+  left: 230px;
+  background-image: url(github_logo.png);
+  background-size: 30%;
+  background-position-y: 20px;
+}
+
+.rsschool {
+  position: absolute;
+  left: 64%;
+  background-image: url(rsschool_logo.gif);
+  background-size: 30%;
+  background-position-y: 40px;
+}
+
+.year {
+  margin-top: 350px;
+  text-align: center;
+}
